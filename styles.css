@@ -1,0 +1,35 @@
+/* ### CUSTOM PROPERTIES ### */
+
+:root {
+  /* # primary # */
+  /* sub-heading at the top of the app UI */
+  --primary-moderate-violet: hsl(276, 55%, 52%);
+  /* chat on the right */
+  --primary-desaturated-dark-violet: hsl(271, 15%, 43%);
+  /* placeholder text */
+  --primary-grayish-blue: hsl(206, 6%, 79%);
+  /* main heading */
+  --primary-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  /* paragraph */
+  --primary-dark-grayish-violet: hsl(270, 7%, 64%);
+
+  /* # gradients # */
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61);
+
+  /* secondary */
+  --secondary-white: hsl(0, 0%, 100%);
+  /* app background */
+  --secondary-light-grayish-violet: hsl(270, 20%, 96%);
+  /* submit button background */
+  --secondary-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  /* radio button outline */
+  --secondary-very-light-magenta: hsl(289, 100%, 72%);
+
+  /* # typography # */
+  --ff-rubik: "Rubik", sans-serif;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+}

@@ -58,6 +58,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: -75px;
+  width: 264px;
+  height: 512px;
+  background: linear-gradient(
+    to bottom,
+    var(--light-magenta),
+    var(--light-violet) 45%
+  );
+  border-end-end-radius: 15rem;
+}
+
+body::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: -75px;
+  width: 264px;
+  height: 512px;
+  background-color: rgba(232, 198, 248, 0.127);
+  border-start-start-radius: 15rem;
 }
 
 h1 {
@@ -67,7 +96,7 @@ h1 {
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3.5rem;
   padding-inline: 2rem;
 }
 
@@ -197,6 +226,11 @@ h1 {
   border-radius: 0.5rem;
   border-end-end-radius: 0;
   box-shadow: 0px 3px 12px hsl(206, 6%, 79%);
+}
+
+.short-bubble {
+  max-width: 16ch;
+  margin-bottom: 1.5rem;
 }
 
 .offer {

@@ -71,6 +71,18 @@ h1 {
   background-color: var(--secondary-white);
   border-radius: 1.6rem;
   padding: 0.6575rem;
+  position: relative;
+}
+
+.phone::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 24%;
+  width: 135px;
+  height: 30px;
+  background-color: var(--secondary-white);
+  border-radius: 100px;
 }
 
 .phone-screen {

@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/chatt-app-css-illustration-mb-F4jdVVJX9V)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/chat-app-css-illustration/)
 
 ## My process
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I got used to working with positioned elements.
+I was able to easily position the background elements using absolute positioning.
 
 ### Continued development
 
